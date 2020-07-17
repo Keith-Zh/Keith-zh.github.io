@@ -75,7 +75,7 @@ function PatternMatched(CurClickedSequence) {
 
   //Starting the game
   function startingGame() {
-    document.addEventListener("keypress", function() {
+    document.addEventListener("click", function() {
       if (levelNum == -1) {
         nextSequence();
       }
